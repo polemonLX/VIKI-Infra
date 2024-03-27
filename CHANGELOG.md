@@ -17,3 +17,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 ### Removed
+
+## [1.0.0] - 21-03-2024
+
+### Added
+
+- First release containing an HTTP module.
+- Added HTTP feature.
