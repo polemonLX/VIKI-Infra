@@ -1,10 +1,10 @@
 package com.polemon.viki.communication.http.consumer;
 
+import com.polemon.viki.communication.http.utils.Serializer;
 import com.polemon.viki.commons.communication.exception.VikiCommunicationConsumerException;
 import com.polemon.viki.commons.communication.models.Event;
 import com.polemon.viki.commons.communication.utils.IVikiCommunicationConsumerHandler;
 import com.polemon.viki.communication.http.utils.Deserializer;
-import com.polemon.viki.communication.http.utils.Serializer;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;

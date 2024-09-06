@@ -1,5 +1,7 @@
 package com.polemon.viki.communication.http.producer;
 
+import com.polemon.viki.communication.http.utils.DeserializerEnum;
+import com.polemon.viki.communication.http.utils.SerializerEnum;
 import com.polemon.viki.commons.VikiException;
 import com.polemon.viki.commons.VikiProperties;
 import com.polemon.viki.commons.communication.exception.VikiCommunicationConsumerException;
@@ -8,8 +10,6 @@ import com.polemon.viki.commons.communication.models.Event;
 import com.polemon.viki.commons.communication.producer.IVikiCommunicationProducer;
 import com.polemon.viki.commons.communication.utils.MediaType;
 import com.polemon.viki.commons.communication.utils.Method;
-import com.polemon.viki.communication.http.utils.DeserializerEnum;
-import com.polemon.viki.communication.http.utils.SerializerEnum;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;

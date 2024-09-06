@@ -1,8 +1,8 @@
 package com.polemon.viki.communication.http.consumer;
 
+import com.polemon.viki.communication.http.utils.Serializer;
 import com.polemon.viki.commons.communication.utils.IVikiCommunicationConsumerHandler;
 import com.polemon.viki.communication.http.utils.Deserializer;
-import com.polemon.viki.communication.http.utils.Serializer;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;

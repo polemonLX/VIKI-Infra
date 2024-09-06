@@ -1,7 +1,7 @@
 package com.polemon.viki.communication.http.utils.xml;
 
-import com.polemon.viki.commons.communication.exception.VikiCommunicationProducerException;
 import com.polemon.viki.communication.http.utils.Serializer;
+import com.polemon.viki.commons.communication.exception.VikiCommunicationProducerException;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

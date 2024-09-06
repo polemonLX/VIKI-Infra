@@ -3,8 +3,8 @@ package com.polemon.viki.communication.http.utils.json;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.polemon.viki.commons.communication.exception.VikiCommunicationProducerException;
 import com.polemon.viki.communication.http.utils.Serializer;
+import com.polemon.viki.commons.communication.exception.VikiCommunicationProducerException;
 
 /**
  * This class converts objects into json format.

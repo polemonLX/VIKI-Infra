@@ -1,7 +1,7 @@
 package com.polemon.viki.communication.http.utils.xml;
 
-import com.polemon.viki.commons.communication.exception.VikiCommunicationConsumerException;
 import com.polemon.viki.communication.http.utils.Deserializer;
+import com.polemon.viki.commons.communication.exception.VikiCommunicationConsumerException;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
