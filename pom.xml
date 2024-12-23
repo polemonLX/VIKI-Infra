@@ -30,12 +30,12 @@
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-server</artifactId>
-            <version>11.0.15</version>
+            <version>12.0.16</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-webapp</artifactId>
-            <version>11.0.15</version>
+            <version>11.0.24</version>
         </dependency>
 
         <!-- LOGS -->
@@ -76,7 +76,7 @@
     </dependencies>
 
     <build>
-        <finalName>exagon-${project.artifactId}</finalName>
+        <finalName>viki-${project.artifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -144,7 +144,7 @@
                         <usePhrasedClassNameInRunning>true</usePhrasedClassNameInRunning>
                         <usePhrasedClassNameInTestCaseSummary>true</usePhrasedClassNameInTestCaseSummary>
                     </statelessTestsetInfoReporter>
-                    <forkCount>4</forkCount>
+                    <forkCount>1</forkCount>
                     <reuseForks>false</reuseForks>
                 </configuration>
             </plugin>
